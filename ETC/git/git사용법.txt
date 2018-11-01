@@ -84,3 +84,12 @@ remote -v // 연결된 원격 저장소 확인
 push origin master // 원격저장소에 push
 
 
+
+/* git 계정변경 해도 변경이 안될경우 */
+git config user.name
+git config user.password
+
+로 계정 변경 해도 git permission denied 일경우
+제어판 -> 사용자계정 -> 윈도우 자격증명관리 -> 깃헙 계정 삭제후 다시 연결시킴.
+
+

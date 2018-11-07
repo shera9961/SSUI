@@ -1,1 +1,1 @@
-# Styleship team study
+# UI Team study

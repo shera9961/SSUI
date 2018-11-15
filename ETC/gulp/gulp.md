@@ -619,6 +619,7 @@ $ gulp <task1> <task2> ...
 ### 4. 참고 자료
 
 - [gulpjs.com](http://gulpjs.com/)
+- [GULP 입문] (https://programmingsummaries.tistory.com/356)
 - [Gulp v4, Github](https://github.com/gulpjs/gulp/tree/4.0/docs)
 - [Gulp 4: The new task execution system - gulp.parallel and gulp.series](https://fettblog.eu/gulp-4-parallel-and-series/)
 - [Migrating to gulp 4 by example](https://blog.wearewizards.io/migrating-to-gulp-4-by-example?utm_campaign=chrome_series_introtogulp_031616&utm_source=chromedev&utm_medium=yt-annt)

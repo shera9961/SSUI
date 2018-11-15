@@ -12,6 +12,7 @@ Github remote 방법
 
 
 
+
 ###2. 작업환경 셋팅
 
 - 저장소 복사할 폴더 생성.
@@ -19,11 +20,13 @@ Github remote 방법
 ![gitremote03](https://user-images.githubusercontent.com/43169339/48525513-c8cfd600-e8c7-11e8-97da-0ab8233373c9.PNG)
 
 
+
 - 폴더 생성후 저장소 복사.
 
 : git clone 저장소 주소 . (끝에 . 입력해야 생성한 폴더에 파일만 복사함)
 
 ![gitremote04](https://user-images.githubusercontent.com/43169339/48525731-86f35f80-e8c8-11e8-8b45-09d749d7d3f3.PNG)
+
 
 
 - 저장소 REMOTE 연결 및 확인.
@@ -37,6 +40,7 @@ Github remote 방법
 ![gitremote05](https://user-images.githubusercontent.com/43169339/48526074-a50d8f80-e8c9-11e8-9732-adc4dd3f915e.PNG)
 
 
+
 ###3. 저장소 업로드
 
 - 수정된 파일 또는 추가된 파일 추가.
@@ -46,9 +50,12 @@ Github remote 방법
 : git add . (전체 파일 추가)
 
 
+
 - 파일 커밋.
 
 : git commit -m "Test"
+
+
 
 - 푸쉬
 

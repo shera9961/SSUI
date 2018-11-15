@@ -1,0 +1,25 @@
+$bg-color: rgb(102,102,102);
+$text-color: rgb(51,51,51);
+
+body {
+	background: $bg-color;
+}
+
+div
+ {
+	background: $bg-color; 
+	color: $text-color;
+	width : 100%;
+
+}
+
+p
+ {
+	color: $text-color;
+
+}
+
+table {
+	width: 100%; 
+
+}

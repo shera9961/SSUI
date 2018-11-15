@@ -1,4 +1,5 @@
-###### Github remote 방법
+Github remote 방법
+==================
 
 ### 1. 저장소 권한 부여
 
@@ -9,7 +10,7 @@
 - 권한 받은 사용자는 자신의 Email에 들어가 버튼 클릭.
 
 ![gitremote02](https://user-images.githubusercontent.com/43169339/48525191-84900600-e8c6-11e8-9a3e-d28b54a9a977.PNG)
-
+***
 
 
 
@@ -38,7 +39,7 @@
 : git remote remove origin (remote 삭제 - 연결이 잘못되어 있으면 삭제 후 다시 연결)
 
 ![gitremote05](https://user-images.githubusercontent.com/43169339/48526074-a50d8f80-e8c9-11e8-9732-adc4dd3f915e.PNG)
-
+***
 
 
 ### 3. 저장소 업로드

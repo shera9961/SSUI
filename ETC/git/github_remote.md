@@ -68,11 +68,64 @@ $ git push
 FORK를 이용한 협업 플로우
 ========================
 
-### 1. FORK
+### 1. FORK 및 자신의 로컬에 복사
 
+- 원격 저장소를 자신의 저장소로 FORK.
 
+![gitworkflow01](https://user-images.githubusercontent.com/43169339/48595829-b8882b80-e999-11e8-8fc7-891efaeefcb0.PNG)
 
+- FORK 후 자신의 로컬에 복사
+```sh
+$ git clone FORK한 저장소 주소
+```
+![gitworkflow02](https://user-images.githubusercontent.com/43169339/48595966-406e3580-e99a-11e8-8096-33fb9b3db7f6.PNG)
+
+- 타인의 저장소 REMOTE
+```sh
+$ git remote add 저장소 이름 저장소 주소
+```
+![gitworkflow03](https://user-images.githubusercontent.com/43169339/48599183-f3925b00-e9a9-11e8-8796-c3f5a5952194.PNG)
 ***
+
+### 2. Pull requests
+
+- 수정 및 추가된 파일 추가, 커밋, 푸쉬
+```sh
+$ git add 수정 및 추가된 파일 ($ git add .)
+
+$ git commit -m "msg"
+
+$ git push
+```
+![gitworkflow04](https://user-images.githubusercontent.com/43169339/48599413-df9b2900-e9aa-11e8-9fb6-43838b0227f5.PNG)
+
+- 자신의 저장소에서 New pull request 클릭
+
+![gitworkflow05](https://user-images.githubusercontent.com/43169339/48599738-600e5980-e9ac-11e8-9d13-698f5d6793e7.PNG)
+
+- 타인의 저장소로 이동 후 커밋 및 수정 내용 확인 가능, 확인 후 이상이 없으면 Create new pull request 클릭
+
+![gitworkflow06](https://user-images.githubusercontent.com/43169339/48599740-60a6f000-e9ac-11e8-9a8d-c4b16ff1289e.PNG)
+
+- 코멘트 입력 후 Create pull request 클릭
+
+![gitworkflow07](https://user-images.githubusercontent.com/43169339/48599741-60a6f000-e9ac-11e8-9ee4-cde6f2e934be.PNG)
+
+- 담당자는 Pull request 검토 후 이상이 없으면 merge 승인
+
+![gitworkflow08](https://user-images.githubusercontent.com/43169339/48599743-60a6f000-e9ac-11e8-812a-9fe5ff84d727.PNG)
+***
+
+### 3. FORK한 저장소 최신화
+
+```sh
+$ git fetch 등록한 저장소 이름
+
+$ git merge 등록한 저장소 이름/브랜치
+```
+![gitworkflow09](https://user-images.githubusercontent.com/43169339/48600040-9f897580-e9ad-11e8-80a6-02cb2fbcffc2.PNG)
+***
+
 ### 참고사이트
 
 - Git을 이용한 협업 워크플로우 (https://lhy.kr/git-workflow)

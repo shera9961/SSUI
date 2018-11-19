@@ -35,12 +35,6 @@ gulp.task('compile-sass', function () {
 		.pipe(gulp.dest(dist + '/css'));
 });
 
-// HTML 파일을 압축한다.
-gulp.task('compress-html', function () {
-	return gulp.src(paths.html)
-		.pipe(minifyhtml())
-		.pipe(gulp.dest(dist + '/'));
-});
 
 // 파일 변경 감지 및 브라우저 재시작__
 gulp.task('watch', function () {

@@ -133,10 +133,41 @@ Feature Branch Workflow
 ### 1. Branch 생성 후 Checkout
 
 ```sh
+$ git branch 브랜치이름
+
+$ git checkout 브랜치이름
 ```
+![gitflow01](https://user-images.githubusercontent.com/43169339/48683627-735e3680-ebf1-11e8-9261-1f823c6bd15d.PNG)
+***
+
+### 2. Push
+
+- 생성한 브랜치를 중앙저장소에 푸시하는 명령어. (--set-upstream : -u), 한번 연결 후 git push만 입력해도 됨.
+```sh
+$ git push -u 저장소이름 브랜치이름
+
+$ git push
+```
+![gitflow02](https://user-images.githubusercontent.com/43169339/48686722-d4d9d180-ec00-11e8-88fe-aa35496af6dd.PNG)
+***
+
+### 3. Pull requests 및 Merge
+
+- Pull requests 후 병합하기로 결정이 나면 작업 진행(권한이 있는 누구든 병합 가능)
+```sh
+$ git checkout master
+
+$ git fetch 저장소이름 브랜치이름
+
+$ git merge 저장소이름/브랜치이름
+
+$ git push 저장소이름 master
+```
+![gitflow03](https://user-images.githubusercontent.com/43169339/48687097-cee4f000-ec02-11e8-92c7-31afa463274e.PNG)
 
 
 
+***
 ### 참고사이트
 
 - Git을 이용한 협업 워크플로우 (https://lhy.kr/git-workflow)
